@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Book a photography session with H & H Photography in Roanoke, VA. Contact us today for senior portraits, product photography, and lifestyle sessions in Roanoke, Salem, Botetourt County, and Smith Mountain Lake." />
+  <meta name="keywords" content="book photographer Roanoke VA, contact H&H Photography, photography booking Roanoke Virginia" />
+  <title>Book Now / Contact | H &amp; H Photography — Roanoke, VA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__logo">H <span>&amp;</span> H Photography</a>
+      <button class="navbar__toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="navbar__menu">
+        <li><a href="index.html"   class="navbar__link">Home</a></li>
+        <li><a href="about.html"   class="navbar__link">About</a></li>
+        <li><a href="gallery.html" class="navbar__link">Gallery</a></li>
+        <li class="navbar__dropdown">
+          <a href="#" class="navbar__link">Services <i class="fa-solid fa-chevron-down" style="font-size:.65rem;margin-left:4px;"></i></a>
+          <ul class="dropdown__menu">
+            <li class="dropdown__item"><a href="services/senior-portraits.html">Senior Portrait Photography</a></li>
+            <li class="dropdown__item"><a href="services/product-photography.html">E-Commerce Product Photography</a></li>
+          </ul>
+        </li>
+        <li class="navbar__dropdown">
+          <a href="#" class="navbar__link">Locations <i class="fa-solid fa-chevron-down" style="font-size:.65rem;margin-left:4px;"></i></a>
+          <ul class="dropdown__menu">
+            <li class="dropdown__item"><a href="locations/roanoke.html">Roanoke, VA</a></li>
+            <li class="dropdown__item"><a href="locations/salem.html">Salem, VA</a></li>
+            <li class="dropdown__item"><a href="locations/botetourt-county.html">Botetourt County</a></li>
+            <li class="dropdown__item"><a href="locations/smith-mountain-lake.html">Smith Mountain Lake</a></li>
+          </ul>
+        </li>
+        <li class="navbar__cta"><a href="contact.html" class="btn btn--gold">Book Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== PAGE HERO ===== -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-label">Let's Connect</span>
+      <h1>Book Your Session</h1>
+      <div class="divider"></div>
+      <p class="lead">Ready to create something unforgettable? Fill out the form below and we'll be in touch within 24 hours to get your session scheduled.</p>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT GRID ===== -->
+  <section class="section section--cream">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Info column -->
+        <div class="reveal">
+          <span class="section-label">Get in Touch</span>
+          <h2>We'd Love to Hear from You</h2>
+          <div class="divider divider--left"></div>
+          <p style="margin-bottom:2.5rem;">Whether you have questions, want to discuss your vision, or are ready to lock in your session — we're here. Reach out through any of the channels below or fill out the form.</p>
+
+          <div class="contact-info__item">
+            <div class="contact-info__icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <div class="contact-info__label">Phone</div>
+              <div class="contact-info__value"><a href="tel:+15400000000" style="color:#111;">(540) 000-0000</a></div>
+            </div>
+          </div>
+
+          <div class="contact-info__item">
+            <div class="contact-info__icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <div class="contact-info__label">Email</div>
+              <div class="contact-info__value"><a href="mailto:hello@hhphotography.com" style="color:#111;">hello@hhphotography.com</a></div>
+            </div>
+          </div>
+
+          <div class="contact-info__item">
+            <div class="contact-info__icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <div class="contact-info__label">Service Area</div>
+              <div class="contact-info__value">Roanoke · Salem · Botetourt County · Smith Mountain Lake</div>
+            </div>
+          </div>
+
+          <div class="contact-info__item">
+            <div class="contact-info__icon"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <div class="contact-info__label">Response Time</div>
+              <div class="contact-info__value">We respond within 24 hours — usually much faster!</div>
+            </div>
+          </div>
+
+          <!-- Social -->
+          <div style="margin-top:1rem;">
+            <div style="font-size:.72rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#888;margin-bottom:1rem;">Follow Along</div>
+            <div class="footer__social">
+              <a href="#" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="social-icon" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form column -->
+        <div class="reveal">
+          <form id="bookingForm" class="booking-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Jane" required />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Smith" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="(540) 000-0000" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="sessionType">Type of Session *</label>
+              <select id="sessionType" name="sessionType" required>
+                <option value="" disabled selected>Select a session type...</option>
+                <option value="senior">Senior Portrait Photography</option>
+                <option value="product">E-Commerce Product Photography</option>
+                <option value="lifestyle">Lifestyle &amp; Portrait Session</option>
+                <option value="family">Family Session</option>
+                <option value="engagement">Engagement / Couples</option>
+                <option value="other">Other / Not Sure Yet</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="location">Preferred Location</label>
+              <select id="location" name="location">
+                <option value="" disabled selected>Select a location...</option>
+                <option value="roanoke">Roanoke, VA</option>
+                <option value="salem">Salem, VA</option>
+                <option value="botetourt">Botetourt County</option>
+                <option value="sml">Smith Mountain Lake</option>
+                <option value="studio">Studio Session</option>
+                <option value="flexible">Flexible / Discuss with Photographer</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="date">Preferred Date(s)</label>
+              <input type="text" id="date" name="date" placeholder="e.g. Any Saturday in June, or specific dates..." />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Tell Us About Your Vision</label>
+              <textarea id="message" name="message" placeholder="Share any details about your session — your style, what you're hoping to capture, any questions you have..."></textarea>
+            </div>
+
+            <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1.5rem;">
+              <input type="checkbox" id="consent" name="consent" style="width:16px;height:16px;accent-color:#C8A96A;" required />
+              <label for="consent" style="font-size:.85rem;color:#666;font-weight:normal;letter-spacing:0;text-transform:none;">I agree to be contacted by H &amp; H Photography regarding my inquiry.</label>
+            </div>
+
+            <button type="submit" class="btn btn--gold" style="width:100%;justify-content:center;font-size:.875rem;padding:1rem 2rem;">
+              Send My Request <i class="fa-solid fa-arrow-right" style="margin-left:0.5rem;"></i>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="section" style="background:#fff;">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Quick Answers</span>
+        <h2>Frequently Asked Questions</h2>
+        <div class="divider"></div>
+      </div>
+      <div style="max-width:760px;margin:0 auto;">
+        <div class="why-grid" style="grid-template-columns:1fr;" class="reveal-stagger">
+          <div class="why-item">
+            <div class="why-item__title">How far in advance should I book?</div>
+            <p class="why-item__text">For senior sessions, we recommend booking 4–8 weeks in advance, especially for spring and fall. Product photography can often be scheduled with shorter notice.</p>
+          </div>
+          <div class="why-item">
+            <div class="why-item__title">How long will my session take?</div>
+            <p class="why-item__text">Sessions typically run 1–2 hours depending on your package, locations selected, and the number of outfit changes. We'll discuss the details when you book.</p>
+          </div>
+          <div class="why-item">
+            <div class="why-item__title">When will I receive my photos?</div>
+            <p class="why-item__text">You'll receive your fully edited gallery within 2–3 weeks of your session. We prioritize fast turnarounds and will let you know your estimated delivery date up front.</p>
+          </div>
+          <div class="why-item">
+            <div class="why-item__title">Do you offer digital files and prints?</div>
+            <p class="why-item__text">Yes! All sessions include a high-resolution digital gallery. We also offer premium print packages, canvases, and albums — ask us about options when you book.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="cta-banner">
+    <div class="container">
+      <span class="section-label">Don't Wait</span>
+      <h2>Spots Fill Up Fast — Book Today</h2>
+      <p>Popular dates book out weeks in advance. Secure your session now and let's start planning your perfect photography experience.</p>
+      <a href="#bookingForm" class="btn btn--gold">Fill Out the Form Above</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <div class="footer__brand-name">H <span>&amp;</span> H Photography</div>
+          <p class="footer__tagline">Serving Roanoke, Salem, Botetourt County &amp; Smith Mountain Lake with professional photography that tells your story.</p>
+          <div class="footer__social">
+            <a href="#" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-icon" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h5>Navigate</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Book Now</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="services/senior-portraits.html">Senior Portraits</a></li>
+            <li><a href="services/product-photography.html">Product Photography</a></li>
+            <li><a href="gallery.html">Lifestyle Sessions</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h5>Contact</h5>
+          <address>
+            Roanoke, Virginia<br/>
+            Serving: Roanoke, Salem,<br/>
+            Botetourt County &amp;<br/>
+            Smith Mountain Lake<br/><br/>
+            <a href="tel:+15400000000">(540) 000-0000</a><br/>
+            <a href="mailto:hello@hhphotography.com">hello@hhphotography.com</a>
+          </address>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2024 H &amp; H Photography. All rights reserved.</span>
+        <div class="footer__bottom-right">
+          <a href="#">Privacy Policy</a> &nbsp;·&nbsp; <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
