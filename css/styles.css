@@ -154,15 +154,26 @@ p { font-size: 1rem; color: #444; margin-bottom: 1rem; }
 }
 
 .navbar__logo {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.35rem;
-  font-weight: 700;
-  color: #fff;
-  letter-spacing: 0.04em;
-  transition: color 0.4s;
+  display: flex;
+  align-items: center;
+  line-height: 1;
 }
-.navbar.scrolled .navbar__logo { color: #111; }
-.navbar__logo span { color: #C8A96A; }
+
+.navbar__logo-img {
+  height: 54px;
+  width: auto;
+  display: block;
+  border-radius: 6px;
+  background: rgba(255,255,255,0.88);
+  padding: 4px 8px;
+  transition: background 0.4s ease, padding 0.4s ease, height 0.4s ease;
+}
+
+.navbar.scrolled .navbar__logo-img {
+  background: transparent;
+  padding: 2px 4px;
+  height: 46px;
+}
 
 .navbar__menu {
   display: flex;
@@ -875,13 +886,14 @@ p { font-size: 1rem; color: #444; margin-bottom: 1rem; }
   border-bottom: 1px solid #222;
 }
 
-.footer__brand-name {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.3rem;
-  color: #fff;
-  margin-bottom: 0.75rem;
+.footer__logo-img {
+  height: 72px;
+  width: auto;
+  display: block;
+  filter: brightness(0) invert(1);
+  opacity: 0.85;
+  margin-bottom: 1rem;
 }
-.footer__brand-name span { color: #C8A96A; }
 
 .footer__tagline { font-size: 0.875rem; color: #666; margin-bottom: 1.5rem; max-width: 280px; }
 
